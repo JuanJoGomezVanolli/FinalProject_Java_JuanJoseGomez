@@ -25,7 +25,7 @@ http://localhost:8080/animalByID?username=Shinobi123&animalIdParamText=116
 Get Animal by Name: (Get Req)
 http://localhost:8080/animalByName?username=Shinobi123&animalNameParamText=Flick
 
-Each of these will return you at first 0 results since you have not populated the respective username databases. So, Use these examples to upload nuew objects
+## Each of these will return you at first 0 results since you have not populated the respective username databases. So, Use these examples to upload nuew objects
 
 Save Vet: (Put Req)
 http://localhost:8080/saveVet/Shinobi123
