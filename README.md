@@ -15,3 +15,40 @@ The vets microservice works the same way as the Animals one. You save vets to a 
 # Orchestrator:
 This microservice the only thing that does is to call all other micro services.
 
+# Example of Commands for Testing
+Get Vet by ID: (Get Req)
+http://localhost:8080/vetByID?username=Shinobi123&vetIdParamText=117 ---> In this example we are using the username "Shinobi123" and an ID of "117"
+
+Get Animal by ID: (Get Req)
+http://localhost:8080/animalByID?username=Shinobi123&animalIdParamText=116
+
+Get Animal by Name: (Get Req)
+http://localhost:8080/animalByName?username=Shinobi123&animalNameParamText=Flick
+
+Each of these will return you at first 0 results since you have not populated the respective username databases. So, Use these examples to upload nuew objects
+
+Save Vet: (Put Req)
+http://localhost:8080/saveVet/Shinobi123
+
+Use the following body example:
+
+{
+    "vetId": "118",
+    "vetName": "Veterinaria2",
+    "vetSpeciality": "Reptiles",
+    "vetExperience": "8",
+    "vetClinic": "JKHG"
+}
+
+Save Animal: (Put Req)
+
+{
+    "animalId": "222",
+    "animalName": "Zuko",
+    "animalType": "Dog",
+    "animalDob": "May2023",
+    "animalBreed": "ACDZ",
+    "animalOwner": "JuanJoseGomez",
+    "vetId": 1234
+}
+
