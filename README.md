@@ -1,5 +1,5 @@
 # FinalProject_Java_JuanJoseGomez
-Final Java Fundamentals Project Juan Jose Gomez IBM
+Final Java Fundamentals Project Juan Jose Gomez
 
 The following project presents a SpringBoot app that provides 3 micro-services:  
   
