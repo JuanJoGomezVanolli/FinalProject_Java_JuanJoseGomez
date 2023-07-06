@@ -39,10 +39,18 @@ Use the following body example:
 
 {
     "vetId": "118",
-    "vetName": "Veterinaria2",
-    "vetSpeciality": "Reptiles",
+    "vetName": "Veterinaria1",
+    "vetSpeciality": "Dogs",
     "vetExperience": "8",
-    "vetClinic": "JKHG"
+    "vetClinic": "ABCD"
+}
+
+{
+    "vetId": "119",
+    "vetName": "Veterinaria2",
+    "vetSpeciality": "Cats",
+    "vetExperience": "9",
+    "vetClinic": "GHFT"
 }
 
 ### Save Animal: (Put Req)
@@ -53,8 +61,18 @@ http://localhost:8080/saveAnimal/Shinobi123
     "animalName": "Zuko",
     "animalType": "Dog",
     "animalDob": "May2023",
-    "animalBreed": "ACDZ",
+    "animalBreed": "AusCat",
     "animalOwner": "JuanJoseGomez",
+    "vetId": 1234
+}
+
+{
+    "animalId": "221",
+    "animalName": "Zuko",
+    "animalType": "Dog",
+    "animalDob": "May1999",
+    "animalBreed": "GerShep",
+    "animalOwner": "NicoleAbarca",
     "vetId": 1234
 }
 
