@@ -22,13 +22,13 @@ This microservice only calls all other micro services.
 
 ## Example of Commands for Testing
 ### Get Vet by ID: (Get Req)
-http://localhost:8080/vetByID?username=Shinobi123&vetIdParamText=117 ---> In this example we are using the username "Shinobi123" and an ID of "117"
+http://localhost:8080/vetByID?username=Shinobi123&vetIdParamText=118 ---> In this example we are using the username "Shinobi123" and an ID of "118"
 
 ### Get Animal by ID: (Get Req)
-http://localhost:8080/animalByID?username=Shinobi123&animalIdParamText=116
+http://localhost:8080/animalByID?username=Shinobi123&animalIdParamText=222 ---> In this example we are using the username "Shinobi123" and an ID of "222"
 
 ### Get Animal by Name: (Get Req)
-http://localhost:8080/animalByName?username=Shinobi123&animalNameParamText=Flick
+http://localhost:8080/animalByName?username=Shinobi123&animalNameParamText=Zuko ---> In this example we are using the username "Shinobi123" and a animalNameParamText of "Zuko"
 
 ## Each of these will return you at first 0 results since you have not populated the respective username databases. So, use these examples to upload new objects
 
