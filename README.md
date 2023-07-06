@@ -9,7 +9,9 @@ The following project presents a SpringBoot app that provides 3 micro-services:
 
 # Services
 ## Handle Animals:
-This service lets you save animal objects in a list, for a specific username. So, each username will have their own database of animals. This microservice lets you save animals and push it on the database as well as to retireve them by Name and by ID. 
+This service lets you save animal objects in a list, for a specific username. 
+So, each username will have their own database of animals. 
+This microservice lets you save animals and push it on the database as well as to retireve them by Name and by ID. 
 
 ## Handle Vets:
 The vets microservice works the same way as the Animals one. You save vets to a specific username and you can add new entries or retrieve them by ID.
