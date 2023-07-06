@@ -46,6 +46,7 @@ Use the following body example:
 }
 
 ### Save Animal: (Put Req)
+http://localhost:8080/saveAnimal/Shinobi123
 
 {
     "animalId": "222",
