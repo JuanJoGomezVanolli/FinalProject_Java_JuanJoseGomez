@@ -2,6 +2,7 @@
 Final Java Fundamentals Project Juan Jose Gomez IBM
 
 The following project presents a SpringBoot app that provides 3 micro-services:  
+  
 1 = serviceNum1 (Handle Animals)  
 2 = serviceNum2 (Handle Vets)  
 3 = JavaProject-orchestrator (Orchestrator)
