@@ -13,7 +13,7 @@ The following project presents a SpringBoot app that provides 3 micro-services:
 This service lets you save animal objects in a list, for a specific username. So, each username will have their own database (local List<animals>) of animals. This microservice lets you save animals and push it on the database as well as to retireve them by Name and by ID. 
 
 ## Handle Vets:
-The vets microservice works the same way as the Animals one. You save vets to a specific username and you can add new entries or retrieve them by ID.
+The vets microservice works the same way as the Animals one. You save vets to a specific username and you can add new entries or retrieve them by ID. The main diference between Handle Animals and Handle Vets is that Handle Animals has two get requests which return animals by specific name and ID, while Handle Vets only returns Vets by ID.
 
 ## Orchestrator:
 This microservice only calls all other micro services.
