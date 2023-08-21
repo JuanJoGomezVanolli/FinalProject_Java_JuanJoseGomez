@@ -1,5 +1,4 @@
 # Java Basic SpringBoot App
-Final Java Fundamentals Project Juan Jose Gomez
 
 The following project presents a SpringBoot app that provides 3 micro-services:  
   
